@@ -3,7 +3,7 @@
 > Open work for this repository: release blockers, known bugs, security follow-ups, technical debt and planned improvements.
 > GitHub issues are the source of truth for details; this file is the entry point and summary.
 >
-> **Last full review:** 2026-11-04 against `master` at `5c03783` (internal backend audit round 3).
+> **Last full review:** 2026-11-05 against `master` at `548f1ca` (quality round 3 close-out; TODO consolidated).
 
 ## Summary
 
@@ -15,7 +15,8 @@
 | P3 Low | 0 |
 | P4 Optional | 0 |
 
-**Release blockers:** None for this repository.
+**Release blockers:** None for this repository; nothing here blocks the next planned preview (the desktop candidate,
+nodestro-desktop DSK-001).
 
 The repository holds only its license. There is no code, configuration, workflow or deployment to review yet, so
 the backend audit of 2026-11-04 recorded it as "not applicable" rather than "tested".
@@ -43,8 +44,8 @@ PR: CI with SHA-pinned actions and `persist-credentials: false`, Dependabot, a s
 
 ## Maintaining this file
 
-- Add an entry when work is identified but not done in the current PR. Use the next free ID (`CLD-001`, ...); IDs
-  are never reused.
+- Add an entry when work is identified but not done in the current PR. IDs have the form `CLD-NNN` (the first is
+  number 001; use the next free number); IDs are never reused.
 - Link a GitHub issue for anything concrete enough to be picked up; keep details in the issue, not here.
 - When an item is finished, delete its entry in the PR that completes it and mention the ID in the PR description.
 - Re-review the whole file before each release and update the "Last full review" line.
